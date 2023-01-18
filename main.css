@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(font/Nunito-VariableFont_wght.ttf);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', 'Papyrus';
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+}
+
+header h2{
+    text-align: center;
+    border-bottom: 2px solid;
+}
+
+header div img{
+    width: 300px;
+    height: 100px
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    text-align-last: center;
+    border: 2px solid;
+    border-radius: 30px;
+    width: 85vw;
+    margin: 10px auto;
+}
+
+#cov p{
+    width: 60vw;
+}
+
+#vac > div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+}
+
+#vac > div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#age_nom_graph{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.graph{
+    width: 40vw;
+    height: 43vh;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+}
+
+#cov .graph{
+    width: 80vw;
+    height: 83vh;
+}
+
+.num{
+    width: 20vw;
+    margin: 0px 10px;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 30px;
+}
